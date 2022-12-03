@@ -1,0 +1,25 @@
+*{
+    border: 1px solid red;
+}
+#techs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    color: var(--text-color);
+}
+h2{
+    display: block;
+    color: var(--text-color);
+}
+#techs > .techs-child {
+    display: block;
+    text-align: center;
+}
+
+#techs > .techs-child > img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}

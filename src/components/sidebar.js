@@ -9,7 +9,6 @@ export default function Sidebar(){
                 <a href="?">Home</a>
                 <a href="?">Contacts</a>
                 <a href="?">Services</a>
-                
             </div>
         </>
     )

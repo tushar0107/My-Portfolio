@@ -1,13 +1,11 @@
 import './App.css';
-import Header from './components/header';
-import Sidebar from './components/sidebar';
+import Full from './components/content';
+// import "./components/styles/full.css";
 
 function App() {
   return (
     <>
-      <Header/>
-      <Sidebar/>
-      
+      <Full/>
     </>
   );
 }
