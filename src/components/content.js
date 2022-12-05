@@ -1,9 +1,8 @@
 import React from "react";
 import "./styles/content.css";
 import Header from "./header";
-import Techs from "./techs";
 
-export default function Full(){
+export default function Content(){
     return(
         <>
         <div id="main">
@@ -37,9 +36,6 @@ export default function Full(){
             </div>
         </div>
 
-        <div>
-            <Techs/>
-        </div>
 
     </>
     );

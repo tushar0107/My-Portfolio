@@ -12,19 +12,19 @@ export default function Techs(){
                 </div>
                 <div className="techs-child">
                     <img src="images/reactjs.png" alt="python-logo"></img>
-                    <p>Python</p>
+                    <p>React JS</p>
                 </div>
                 <div className="techs-child">
                     <img src="images/javascript.png" alt="python-logo"></img>
-                    <p>Python</p>
+                    <p>JavaScript</p>
                 </div>
                 <div className="techs-child">
                     <img src="images/html5.png" alt="python-logo"></img>
-                    <p>Python</p>
+                    <p>HTML5</p>
                 </div>
                 <div className="techs-child">
                     <img src="images/css3.png" alt="python-logo"></img>
-                    <p>Python</p>
+                    <p>CSS3</p>
                 </div>
 
 

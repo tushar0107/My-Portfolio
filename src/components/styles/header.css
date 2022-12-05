@@ -6,7 +6,7 @@
     background-color: #fcfcfc00;
 }
 #logo{
-    font-size: larger;
+    font-size: 48px;
     padding-left: 24px;
 }
 #nav-items{
@@ -15,12 +15,14 @@
     align-items: center;
 }
 #nav-items > .nav-icon{
+    font-size: 22px;
     margin: 0 28px;
-    padding: 8px 10px;
+    padding: 10px 10px 6px 10px;
     border-radius: 50%;
-    color: var(--text-light-color);
+    color: var(--primary-color);
     text-decoration: none;
-    transition: .3s ease-in-out;
+    transition: ease-in-out;
+    transition-duration: .2s;
 }
 #nav-items > .nav-icon:hover{
     position: relative;
@@ -30,7 +32,15 @@
 }
 
 @media only screen and (max-width: 412px){
+    #logo{
+        font-size: 48px;
+        align-self: flex-end;
+    }
     #nav-items{
         flex-direction: column;
     }
+    #nav-items > .nav-icon{
+        margin: 8px 0;
+    }
+
 }

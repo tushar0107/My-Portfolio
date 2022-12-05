@@ -1,11 +1,12 @@
 import './App.css';
-import Full from './components/content';
-// import "./components/styles/full.css";
+import Content from './components/content';
+import Techs from './components/techs';
 
 function App() {
   return (
     <>
-      <Full/>
+      <Content/>
+      <Techs/>
     </>
   );
 }
