@@ -4,7 +4,7 @@ import "./styles/techs.css";
 export default function Techs(){
     return(
         <>
-            <h2>Techs I know</h2>
+            <h1>Techs I know</h1>
             <div id="techs">
                 <div className="techs-child">
                     <img src="images/python.png" alt="python-logo"></img>

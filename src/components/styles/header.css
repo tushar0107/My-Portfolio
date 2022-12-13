@@ -8,15 +8,16 @@
 #logo{
     font-size: 48px;
     padding-left: 24px;
+    color: var(--text-light-color);
 }
 #nav-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 #nav-items > .nav-icon{
     font-size: 22px;
-    margin: 0 28px;
+    margin: 0 28px 0 auto;
     padding: 10px 10px 6px 10px;
     border-radius: 50%;
     color: var(--primary-color);
@@ -27,8 +28,8 @@
 #nav-items > .nav-icon:hover{
     position: relative;
     transform: scale(1.2);
-    color: var(--text-color);
-    background-color: var(--secondary-color);
+    color: white;
+    /* background-color: var(--primary-color); */
 }
 
 @media only screen and (max-width: 412px){
